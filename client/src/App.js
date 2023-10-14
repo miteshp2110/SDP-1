@@ -12,8 +12,7 @@ function App() {
   return (
     <>
     
-    < SignUp />
-    {/* <BrowserRouter>
+    <BrowserRouter>
     <NavBar/>
       <Routes >
           <Route exact path='/' element={<Home/>}></Route>
@@ -22,7 +21,7 @@ function App() {
           <Route exact path='/dashboard' element={<Dashboard/>}></Route>
           <Route exact path='/Login' element={<Login/>}></Route>
       </Routes>
-    </BrowserRouter> */}
+    </BrowserRouter>
     </>
   );
 }
