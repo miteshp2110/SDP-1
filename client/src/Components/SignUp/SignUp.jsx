@@ -1,12 +1,12 @@
+import Login from '../Login/Login';
 import './SignUpStyle.css'
+import NavBar from '../NavBar/NavBar';
 
-const SignUp=()=>{
-
-    return(
-        
+const SignUp=()=> {
+  return(
+    <>
+    <NavBar />
 <section className="background-radial-gradient overflow-hidden">
-  
-
   <div className="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
     <div className="row gx-lg-5 align-items-center mb-5">
       <div className="col-lg-6 mb-5 mb-lg-0" >
@@ -29,57 +29,45 @@ const SignUp=()=>{
         <div className="card bg-glass">
           <div className="card-body px-4 py-5 px-md-5">
             <form>
-              
               <div className="row">
                 <div className="col-md-6 mb-4">
                   <div className="form-outline">
-                    {/* Taking First name input id="First_name" */}
                     <input type="text" id="First_name" className="form-control" />
                     <label className="form-label" for="First_name">First name</label>
                   </div>
                 </div>
                 <div className="col-md-6 mb-4">
                   <div className="form-outline">
-                    {/* Taking Last name input id="First_name" */}
                     <input type="text" id="Last_name" className="form-control" />
                     <label className="form-label" for="Last_name">Last name</label>
                   </div>
                 </div>
               </div>
 
-              
               <div className="form-outline mb-4">
                 <input type="email" id="form3Example3" className="form-control" />
                 <label className="form-label" for="form3Example3">Email address</label>
               </div>
 
-              
               <div className="form-outline mb-4">
                 <input type="password" id="form3Example4" className="form-control" />
                 <label className="form-label" for="form3Example4">Password</label>
               </div>
 
-              
-              {/* <div className="form-check d-flex justify-content-center mb-4">
-                <input className="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
-                <label className="form-check-label" for="form2Example33">
-                  Subscribe to our newsletter
-                </label>
-              </div> */}
-
-              
-              <button type="submit" className="btn btn-primary btn-block mb-4">
-                Sign up
-              </button>
-
-              
               <div className="text-center">
-                <p>Login instead</p>
-
                 <button type="submit" className="btn btn-primary btn-block mb-4">
-                Login
-              </button>
-                
+                  Sign up
+                </button>
+              </div>
+
+              <div className="text-center">
+                <hr />
+                <span className="mb-2">
+                  Have an account?
+                </span>
+                <button type="submit" className="btn btn-primary btn-block mb-2" style={{background: 'none', border: 'none', color: 'blue'}}>
+                  Login
+                </button>
               </div>
             </form>
           </div>
@@ -88,9 +76,8 @@ const SignUp=()=>{
     </div>
   </div>
 </section>
-
-    )
-
+</>
+  )
 }
 
 export default SignUp;
