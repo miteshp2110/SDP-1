@@ -1,0 +1,29 @@
+/* body{
+    background-color: black;
+} */
+
+
+.navbar-brand{
+    font-size: 30px;
+    color: rgb(139, 183, 183);
+    transition: ease-in-out 0.3s;
+}
+.navbar-brand:hover{
+    transition: ease-in-out 0.3s;
+}
+
+.custom-navbar{
+    
+    background-color: black;
+}
+
+
+.nav-link{
+    margin-right: 30px;
+    color: aliceblue;
+    font-size: large;
+}
+
+.nav-link:hover{
+    color: rgb(139, 183, 183);
+}
