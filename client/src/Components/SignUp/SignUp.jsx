@@ -56,19 +56,18 @@ const SignUp=()=>{
               </div>
 
               <div className="text-center">
-                <button type="submit" className="btn btn-primary btn-block mb-4">
-                  Sign up
-                </button>
+                <a>
+                  <button type="submit" className="btn btn-primary btn-block mb-4">
+                    Sign up
+                  </button>
+                </a>
               </div>
 
+              <hr />
               <div className="text-center">
-                <hr />
-                <span className="mb-2">
-                  Have an account?
+                <span>
+                  Have an account? <a href="">Login</a>
                 </span>
-                <button type="submit" className="btn btn-primary btn-block mb-2" style={{background: 'none', border: 'none', color: 'blue'}}>
-                  Login
-                </button>
               </div>
             </form>
           </div>

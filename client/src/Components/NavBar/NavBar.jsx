@@ -4,7 +4,7 @@ const NavBar = () => {
     <>
       <nav
        
-        className="custom-navbar navbar navbar navbar-expand-md navbar-dark "
+        className="custom-navbar navbar fixed-top navbar navbar-expand-md navbar-dark "
         arial-label="Furni navigation bar"
         
       >
