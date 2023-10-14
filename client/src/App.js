@@ -4,7 +4,6 @@ import NavBar from './Components/NavBar/NavBar';
 import Login from './Components/Login/Login';
 function App() {
   return (
-  
     <SignUp/>
   );
 }

@@ -35,25 +35,25 @@ const SignUp=()=>{
                 <div className="col-md-6 mb-4">
                   <div className="form-outline">
                     <input type="text" id="First_name" className="form-control" />
-                    <label className="form-label" for="First_name">First name</label>
+                    <label className="form-label" htmlFor="First_name">First name</label>
                   </div>
                 </div>
                 <div className="col-md-6 mb-4">
                   <div className="form-outline">
                     <input type="text" id="Last_name" className="form-control" />
-                    <label className="form-label" for="Last_name">Last name</label>
+                    <label className="form-label" htmlFor="Last_name">Last name</label>
                   </div>
                 </div>
               </div>
 
               <div className="form-outline mb-4">
                 <input type="email" id="form3Example3" className="form-control" />
-                <label className="form-label" for="form3Example3">Email address</label>
+                <label className="form-label" htmlFor="form3Example3">Email address</label>
               </div>
 
               <div className="form-outline mb-4">
                 <input type="password" id="form3Example4" className="form-control" />
-                <label className="form-label" for="form3Example4">Password</label>
+                <label className="form-label" htmlFor="form3Example4">Password</label>
               </div>
 
               <div className="text-center">
