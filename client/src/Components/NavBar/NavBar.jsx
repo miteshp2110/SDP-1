@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './NavBarStyle.css'
 const NavBar = () => {
   return (
@@ -9,9 +10,9 @@ const NavBar = () => {
         
       >
         <div className="container">
-          <a className="navbar-brand" href="index.html">
+          <Link className="navbar-brand" to="/">
             STOX<span>.</span>
-          </a>
+          </Link>
 
           <button
             className="navbar-toggler"
@@ -28,29 +29,29 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarsFurni">
             <ul className="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
               <li className="nav-item active">
-                <a className="nav-link" href="index.html">
+                <Link className="nav-link" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="nav-link" href="shop.html">
+                <Link className="nav-link" to="/learnfirst">
                   Learnfirst
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="nav-link" href="about.html">
+                <Link className="nav-link" to="/watchlist">
                   Watchlist
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="nav-link" href="services.html">
+                <Link className="nav-link" to="/dashboard">
                   Dashboard
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="nav-link" href="blog.html">
+                <Link className="nav-link" to="/login">
                   Login
-                </a>
+                </Link>
               </li>
             </ul>
 
