@@ -1,8 +1,11 @@
 import './SignUpStyle.css'
+import NavBar from '../NavBar/NavBar';
 
 const SignUp=()=>{
 
     return(
+      <div>
+        <NavBar/>
         
 <section className="background-radial-gradient overflow-hidden">
   
@@ -88,6 +91,7 @@ const SignUp=()=>{
     </div>
   </div>
 </section>
+</div>
 
     )
 
