@@ -3,10 +3,9 @@ import './SignUpStyle.css'
 import NavBar from '../NavBar/NavBar';
 
 const SignUp=()=>{
-
-    return(
-      <>
-      <NavBar/>
+  return(
+    <>
+    <NavBar/>
         
 <section className="background-radial-gradient overflow-hidden">
   <div className="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
@@ -78,10 +77,8 @@ const SignUp=()=>{
     </div>
   </div>
 </section>
-</>
-
-    )
-
+    </>
+  );
 }
 
 export default SignUp;
