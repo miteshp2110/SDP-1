@@ -36,6 +36,7 @@ const Login=()=>{
 
               <div className="text-center">
                 <hr/>
+                <a type="button ">hello</a>
                 <span className="mb-2">
                   Don't have an account?
                 </span>
