@@ -4,14 +4,13 @@ const NavBar = () => {
   return (
     <>
       <nav
-       
-        className="custom-navbar navbar navbar navbar-expand-md navbar-dark "
+        className="custom-navbar navbar fixed-top navbar navbar-expand-md navbar-dark "
         arial-label="Furni navigation bar"
         
       >
         <div className="container">
           <Link className="navbar-brand" to="/">
-            STOX<span>.</span>
+            STOX
           </Link>
 
           <button

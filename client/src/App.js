@@ -11,7 +11,6 @@ import LearnFirst from './Components/LearnFirst/LearnFirst';
 function App() {
   return (
     <>
-    
     <BrowserRouter>
     <NavBar/>
       <Routes >
@@ -20,6 +19,7 @@ function App() {
           <Route exact path='/watchlist' element={<WatchList/>}></Route>
           <Route exact path='/dashboard' element={<Dashboard/>}></Route>
           <Route exact path='/Login' element={<Login/>}></Route>
+          <Route exact path='/SignUp' element={<SignUp/>}></Route>
       </Routes>
     </BrowserRouter>
     </>

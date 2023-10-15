@@ -1,14 +1,21 @@
-import './LoginStyle.css'
+import './LoginStyle.css';
+import SignUp from '../SignUp/SignUp';
 
+const titleStyleColor= {
+  color: `hsl(218, 81%, 95%)`,
+};
 const Login=()=>{
   return(
 <section className="background-radial-gradient overflow-hidden">
   <div className="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
     <div className="row gx-lg-5 align-items-center mb-5">
       <div className="col-lg-6 mb-5 mb-lg-0" >
-        <h1 className="my-5 display-5 fw-bold ls-tight" style={{color: `hsl(218, 81%, 95%)`}}>
-          Welcome Back!
+        <h1 className="my-5 display-4 fw-bold ls-tight" style={titleStyleColor}>
+          Stox
         </h1>
+        <p className="mb-5 display-6 ls-tight" style={titleStyleColor}>
+          Welcome Back!
+        </p>
       </div>
 
       <div className="col-lg-6 mb-5 mb-lg-0 position-relative">
@@ -29,20 +36,14 @@ const Login=()=>{
               </div>
 
               <div className="text-center">
-                <button type="submit" className="btn btn-primary btn-block mb-4">
+                <a href="#" className="btn btn-primary btn-block mb-4">
                   Login
-                </button>
+                </a>
               </div>
 
               <div className="text-center">
                 <hr/>
-                <a type="button ">hello</a>
-                <span className="mb-2">
-                  Don't have an account?
-                </span>
-                <button type="submit" className="btn btn-primary btn-block mb-2" style={{background: 'none', border: 'none', color: 'blue'}}>
-                  Sign Up
-                </button>
+                Don't have an account? <a href="SignUp">Sign Up</a>
               </div>
             </form>
           </div>
@@ -51,7 +52,7 @@ const Login=()=>{
     </div>
   </div>
 </section>
-  )
+  );
 }
 
 export default Login;
