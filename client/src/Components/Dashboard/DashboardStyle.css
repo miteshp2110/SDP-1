@@ -1,48 +1,52 @@
+.title {
+  margin-top: 3%;
+  font-size: 30px;
+  padding-inline: 5%;
+}
+
 .dashboard-container {
-  /* border: 3px solid red; */
   overflow-y: auto;
   margin: 0 1%;
   box-shadow: 0 0 5px -2px grey;
 }
 
+.funds {
+  margin-top: 2%;
+}
+
+.funds-subtitle {
+  font-size: 25px;
+}
+
 .dashboard-contents {
   width: 90%;
-  border: 1px solid black;
   margin: auto;
 
-  display: grid;
+  display: flex;
   column-gap: 10px;
   row-gap: 25px;
-  grid-template-areas:
-    "funds funds ad withdraw"
-    "avlbal avlbal ad withdraw"
-    "positions positions positions positions"
-    "holdings holdings holdings holdings";
+  flex-direction: column;
 }
 
-.holdings {
-  border: 1px solid red;
-  grid-area: holdings;
+.tables {
+  border-collapse: collapse;
+  margin-top: 3%;
 }
 
-.positions {
-  border: 1px solid red;
-  grid-area: positions;
+.avl-bal-name {
+  display: inline-block;
+  margin-top: 1.5%;
 }
 
-.funds {
-  border: 1px solid red;
-  grid-area: funds;
-}
-
-#avl-balance {
-  grid-area: avlbal;
-}
-
-#add-btn {
-  grid-area: ad;
+.btn {
+  width: 80px;
+  height: 30px;
+  border: none;
+  margin-bottom: 1%;
+  margin-top: 1.1%;
+  cursor: pointer;
 }
 
 #withdraw-btn {
-  grid-area: withdraw;
+  margin-left: 1%;
 }

@@ -1,0 +1,21 @@
+.SearchBox_container{
+    
+    
+    height: 40px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    outline: none ;
+    transition: all ease-in-out 0.5s;
+
+    
+}
+.SearchBox_container:hover{
+    
+    outline: 2px solid cadetblue ;
+    transition: all ease-in-out 0.5s;
+}
