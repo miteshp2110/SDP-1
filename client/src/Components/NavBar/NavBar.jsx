@@ -1,66 +1,43 @@
 import { Link } from 'react-router-dom';
 import './NavBarStyle.css'
-const NavBar = () => {
-  return (
+
+
+const NavBar=()=>{
+  return(
     <>
-      <nav
-       
-        className="custom-navbar navbar navbar navbar-expand-md navbar-dark "
-        arial-label="Furni navigation bar"
-        
-      >
-        <div className="container">
-          <Link className="navbar-brand" to="/">
-            STOX<span>.</span>
-          </Link>
+    <header>
+      <nav>
+              
+                <div class="logo_div">
+                <Link className="navbar-brand" to="/">
+                    <span class="logo_container">
+                        STOX
+    
+                    </span>
+                </Link>
+              
+                </div>
+                <Link  to="/">
+                <button class="home_button">Home</button>
+                </Link>
+                <Link  to="/learnfirst">
+                <button class="learnfirst_button">LearnFirst</button>
+                </Link>
+                <Link  to="/watchlist">
+                <button class="watchlist_button">Watchlist</button>
+                </Link>
+                <Link  to="/dashboard">
+                <button class="dashboard_button">Dashborad</button>
+                </Link>
+                <Link  to="/login">
+                <button class="login_button">Login</button>
+                </Link>
 
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarsFurni"
-            aria-controls="navbarsFurni"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-
-          <div className="collapse navbar-collapse" id="navbarsFurni">
-            <ul className="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-              <li className="nav-item active">
-                <Link className="nav-link" to="/">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link className="nav-link" to="/learnfirst">
-                  Learnfirst
-                </Link>
-              </li>
-              <li>
-                <Link className="nav-link" to="/watchlist">
-                  Watchlist
-                </Link>
-              </li>
-              <li>
-                <Link className="nav-link" to="/dashboard">
-                  Dashboard
-                </Link>
-              </li>
-              <li>
-                <Link className="nav-link" to="/login">
-                  Login
-                </Link>
-              </li>
-            </ul>
-
-            
-          </div>
-        </div>
-      </nav>
+                
+        </nav>
+        </header>
     </>
-  );
-};
+  )
+}
 
 export default NavBar;

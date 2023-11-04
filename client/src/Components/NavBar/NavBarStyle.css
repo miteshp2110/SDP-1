@@ -1,32 +1,86 @@
-/* body{
-    background-color: black;
-} */
 
 
-.navbar-brand{
+
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+    
+}
+nav{
+    position: relative;
+  height: 10vh;
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  justify-content: end;
+  min-height: 50px;
+  max-height: 10vh;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 10px;
+}
+
+.logo_div{
     font-size: 30px;
-    color: rgb(139, 183, 183);
+    letter-spacing: 4px;
+    margin-right: auto;
+    margin-left: 100px;
+
+
+
+}
+
+
+nav button{
+    color: white;
+    background-color: transparent;
+    height: 3em;
+    width: 9em;
+    margin: 0 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    border-radius: 7%;
+    font-weight: 700;
     transition: ease-in-out 0.3s;
+    z-index: 10px;
 }
-.navbar-brand:hover{
+
+
+
+nav button:hover{
+    color: rgb(123, 183, 209);
+    letter-spacing: 1px;
     transition: ease-in-out 0.3s;
+    cursor: pointer;
 }
-
-.custom-navbar{
-    
-    background-color: black;
-    
-    
-    
+.login_button{
+    margin-right:103px ;
 }
 
 
-.nav-link{
-    margin-right: 30px;
-    color: aliceblue;
-    font-size: large;
+    
+
+
+
+body{
+    background-color: rgb(255, 255, 255);
+
 }
 
-.nav-link:hover{
-    color: rgb(139, 183, 183);
-}
+
+
+
+
+
+
+
+
+
+
