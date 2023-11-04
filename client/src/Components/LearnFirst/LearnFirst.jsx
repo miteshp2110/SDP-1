@@ -1,14 +1,9 @@
 import './LearnFirstStyle.css'
-
-import lightbullish from "C:\\Users\\HP\\Desktop\\MSWD\\SDP\\New folder\\SDP-1\\client\\src\\Resources\\lightbullish.png"
-
-import lightbearish from "C:\\Users\\HP\\Desktop\\MSWD\\SDP\\New folder\\SDP-1\\client\\src\\Resources\\lightbearish.png"
-
-import darkbullish from "C:\\Users\\HP\\Desktop\\MSWD\\SDP\\New folder\\SDP-1\\client\\src\\Resources\\darkbullish.png"
-
-import darkbearish from "C:\\Users\\HP\\Desktop\\MSWD\\SDP\\New folder\\SDP-1\\client\\src\\Resources\\darkbearish.png"
-
-import lightbasics from "C:\\Users\\HP\\Desktop\\MSWD\\SDP\\New folder\\SDP-1\\client\\src\\Resources\\lightbasics.png"
+import lightbullish from './lightbullish.png'
+import lightbearish from './lightbearish.png'
+import darkbullish from './darkbullish.png'
+import darkbearish from './darkbearish.png'
+import lightbasics from './lightbasics.png'
 
 const LearnFirst=()=>{
   return(
