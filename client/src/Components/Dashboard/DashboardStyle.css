@@ -1,0 +1,48 @@
+.dashboard-container {
+  /* border: 3px solid red; */
+  overflow-y: auto;
+  margin: 0 1%;
+  box-shadow: 0 0 5px -2px grey;
+}
+
+.dashboard-contents {
+  width: 90%;
+  border: 1px solid black;
+  margin: auto;
+
+  display: grid;
+  column-gap: 10px;
+  row-gap: 25px;
+  grid-template-areas:
+    "funds funds ad withdraw"
+    "avlbal avlbal ad withdraw"
+    "positions positions positions positions"
+    "holdings holdings holdings holdings";
+}
+
+.holdings {
+  border: 1px solid red;
+  grid-area: holdings;
+}
+
+.positions {
+  border: 1px solid red;
+  grid-area: positions;
+}
+
+.funds {
+  border: 1px solid red;
+  grid-area: funds;
+}
+
+#avl-balance {
+  grid-area: avlbal;
+}
+
+#add-btn {
+  grid-area: ad;
+}
+
+#withdraw-btn {
+  grid-area: withdraw;
+}

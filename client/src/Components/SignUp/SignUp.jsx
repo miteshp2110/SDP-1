@@ -12,25 +12,25 @@ const SignUp=()=>{
             SignUp
          </div>
          <form action="#">
-         <div class="field">
+         <div className="field">
                <input type="text" required /> 
-               <span class="fas fa-name"></span>
+               <span className="fas fa-name"></span>
                <label>Name</label>
             </div>
-            <div class="field">
+            <div className="field">
                <input type="text" required /> 
-               <span class="fas fa-user"></span>
+               <span className="fas fa-user"></span>
                <label>Email or Phone</label>
             </div>
             <br></br>
-            <div class="field">
+            <div className="field">
                <input type="password" required />
-               <span class="fas fa-lock"></span>
+               <span className="fas fa-lock"></span>
                <label>Password</label>
             </div>
             <br/>
             <button className='login_btns'>Sign in</button>
-            <div class="sign-up">
+            <div className="sign-up">
                Already a member?
                <Link to='/Login'>Login</Link>
             </div>
