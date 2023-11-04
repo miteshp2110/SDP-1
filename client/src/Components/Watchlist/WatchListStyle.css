@@ -1,0 +1,31 @@
+.WatchList_container{
+    background-color: aqua;
+    margin-top: 15px;
+    width: 98.7%;
+    padding: 10px;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 'item1 item2';
+    
+}
+.WatchList_search{
+    padding: 8px;
+    grid-area: item1;
+    margin-left: 13px;
+    
+    background-color: rgb(218, 218, 218);
+    width: 95%;
+    height: 96%;
+    border-radius: 10px;
+}
+
+.WatchList_preview{
+
+    grid-area: item2;
+    background-color: brown;
+    width: 96%;
+    height: 100%;
+    margin-left: 2%;
+
+}
+
