@@ -8,9 +8,9 @@ const NavBar=()=>{
     <header>
       <nav>
               
-                <div class="logo_div">
+                <div className="logo_div">
                 <Link className="logo_link_tag" to="/">
-                    <span class="logo_container">
+                    <span className="logo_container">
                         STOX
     
                     </span>
@@ -18,19 +18,19 @@ const NavBar=()=>{
               
                 </div>
                 <Link  to="/">
-                <button class="home_button">Home</button>
+                <button className="home_button">Home</button>
                 </Link>
                 <Link  to="/learnfirst">
-                <button class="learnfirst_button">LearnFirst</button>
+                <button className="learnfirst_button">LearnFirst</button>
                 </Link>
                 <Link  to="/watchlist">
-                <button class="watchlist_button">Watchlist</button>
+                <button className="watchlist_button">Watchlist</button>
                 </Link>
                 <Link  to="/dashboard">
-                <button class="dashboard_button">Dashborad</button>
+                <button className="dashboard_button">Dashborad</button>
                 </Link>
                 <Link  to="/login">
-                <button class="login_button">Login</button>
+                <button className="login_button">Login</button>
                 </Link>
 
                 

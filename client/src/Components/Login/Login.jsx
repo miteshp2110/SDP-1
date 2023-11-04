@@ -10,21 +10,21 @@ const Login=()=>{
             Login
          </div>
          <form action="#">
-            <div class="field">
+            <div className="field">
                <input type="text" required /> 
-               <span class="fas fa-user"></span>
+               <span className="fas fa-user"></span>
                <label>Email or Phone</label>
             </div>
-            <div class="field">
+            <div className="field">
                <input type="password" required />
-               <span class="fas fa-lock"></span>
+               <span className="fas fa-lock"></span>
                <label>Password</label>
             </div>
-            <div class="forgot-pass">
+            <div className="forgot-pass">
                <a href="#">Forgot Password?</a>
             </div>
             <button className='login_btns'>Login</button>
-            <div class="sign-up">
+            <div className="sign-up">
                Not a member?
                <Link to='/SignUp'>Signup now</Link>
             </div>
