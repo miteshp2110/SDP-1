@@ -13,13 +13,15 @@ const Dashboard=()=>{
                     <div className="funds-subtitle">
                         Funds
                     </div>
-                    <span className="avl-bal-name">Avl. balance:&nbsp;</span>
+                    <span className="avl-bal-name">
+                        Avl. balance:&nbsp;
+                    </span>
                     <span id="avl-balance">
                         1234.55
                     </span>
                     <br />
                     <button className="btn" id="add-btn">+ Add</button>
-                    <button className="btn" id="withdraw-btn"><img src=""/>Withdraw</button>
+                    <button className="btn" id="withdraw-btn">Withdraw</button>
                 </div>
                 <table className="tables" id="positions" border={1} cellSpacing={0} cellPadding={1}>
                     <caption style={{textAlign: "left", fontSize: 25}}>Positions</caption>
@@ -57,7 +59,7 @@ const Dashboard=()=>{
                     </tr>
                 </table>
             </div>
-            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br />
             Hii
         </div>
     )
