@@ -8,7 +8,7 @@ import darkbullish from "C:\\Users\\HP\\Desktop\\MSWD\\SDP\\New folder\\SDP-1\\c
 
 import darkbearish from "C:\\Users\\HP\\Desktop\\MSWD\\SDP\\New folder\\SDP-1\\client\\src\\Resources\\darkbearish.png"
 
-import lightbasics from "C:\\Users\\HP\\Desktop\\MSWD\\SDP\\New folder\\SDP-1\\client\\src\\Resources\\lightbasics.png"
+import lightbearish from '.../Resources/lightbearish.png' 
 
 const LearnFirst=()=>{
   return(
