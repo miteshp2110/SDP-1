@@ -2,7 +2,9 @@
     background-color: black;
 } */
 
-
+nav{
+    position: fixed;
+}
 .navbar-brand{
     font-size: 30px;
     color: rgb(139, 183, 183);

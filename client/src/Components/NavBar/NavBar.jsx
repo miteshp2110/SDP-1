@@ -33,22 +33,22 @@ const NavBar = () => {
                 </Link>
               </li>
               <li>
-                <Link className="nav-link" to="/learnfirst">
+                <Link className="nav-link" to="/Learnfirst">
                   Learnfirst
                 </Link>
               </li>
               <li>
-                <Link className="nav-link" to="/watchlist">
+                <Link className="nav-link" to="/Watchlist">
                   Watchlist
                 </Link>
               </li>
               <li>
-                <Link className="nav-link" to="/dashboard">
+                <Link className="nav-link" to="/Dashboard">
                   Dashboard
                 </Link>
               </li>
               <li>
-                <Link className="nav-link" to="/login">
+                <Link className="nav-link" to="/Login">
                   Login
                 </Link>
               </li>

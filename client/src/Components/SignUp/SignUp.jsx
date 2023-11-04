@@ -1,5 +1,6 @@
 import './SignUpStyle.css';
 import Login from '../Login/Login';
+import { Link } from 'react-router-dom';
 
 const SignUp=()=>{
   return(
@@ -48,9 +49,9 @@ const SignUp=()=>{
               </div>
 
               <div className="text-center">
-                <a href="#" className="btn btn-primary btn-block mb-4">
+                <Link to="/" className="btn btn-primary btn-block mb-4">
                   Sign up
-                </a>
+                </Link>
               </div>
 
               <div className="text-center">

@@ -1,5 +1,6 @@
 import './LoginStyle.css';
 import SignUp from '../SignUp/SignUp';
+import { Link } from 'react-router-dom';
 
 const titleStyleColor= {
   color: `hsl(218, 81%, 95%)`,
@@ -43,7 +44,7 @@ const Login=()=>{
 
               <div className="text-center">
                 <hr/>
-                Don't have an account? <a href="SignUp">Sign Up</a>
+                Don't have an account? <Link to="/SignUp">Sign Up</Link>
               </div>
             </form>
           </div>
