@@ -7,6 +7,7 @@ import Home from './Components/Home/Home';
 import WatchList from './Components/Watchlist/WatchList';
 import Dashboard from './Components/Dashboard/DashBoard'
 import LearnFirst from './Components/LearnFirst/LearnFirst';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path='/Login' element={<Login/>}></Route>
           <Route exact path='/SignUp' element={<SignUp/>}></Route>
       </Routes>
+    
     </BrowserRouter>
     </>
   );
