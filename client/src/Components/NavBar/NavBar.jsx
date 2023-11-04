@@ -9,7 +9,7 @@ const NavBar=()=>{
       <nav>
               
                 <div class="logo_div">
-                <Link className="navbar-brand" to="/">
+                <Link className="logo_link_tag" to="/">
                     <span class="logo_container">
                         STOX
     

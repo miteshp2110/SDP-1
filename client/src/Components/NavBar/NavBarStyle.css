@@ -64,17 +64,15 @@ nav button:hover{
     margin-right:103px ;
 }
 
-
-    
-
-
-
 body{
     background-color: rgb(255, 255, 255);
 
 }
 
-
+.logo_link_tag {
+    text-decoration-line: none;
+    color: white;
+}
 
 
 
