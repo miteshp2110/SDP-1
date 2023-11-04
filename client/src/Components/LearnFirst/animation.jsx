@@ -1,5 +1,5 @@
 import React from 'react';
-import './background-animation.css'; 
+import './LearnFirstStyle.css'; 
 
 const MyComponent = () => {
   return (

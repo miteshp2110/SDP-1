@@ -1,0 +1,45 @@
+.dashboard-container {
+  margin-top: 74px;
+  border: 2px solid red;
+  overflow-y: auto;
+}
+
+.dashboard-grid-container {
+  display: grid;
+  grid-template-areas:
+    "vada vada head head"
+    "pav pav body body"
+    "pav pav body body";
+  padding: 0.5%;
+  gap: 10px;
+}
+
+.dashboard-grid-container>div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+}
+
+
+
+#item0 {
+  grid-area: vada;
+}
+#item1 {
+  grid-area: main;
+}
+#item2 {
+  grid-area: head;
+}
+#item3 {
+  grid-area: pav;
+}
+#item4 {
+  grid-area: body;
+}
+
+
+
+
+::-webkit-scrollbar {
+  display: none;
+}
