@@ -40,7 +40,7 @@
     grid-area: item2;
     display: inline-block;
     background-color: bisque;
-    width: 100%;
+    width: 187vh;
     height: 20vh;
     border-radius: 10px;
 
@@ -51,7 +51,7 @@
  .Card{
     
     background-color: bisque;
-    width: 112vb;
+    width: 112vh;
     height: 40vh;
     border-radius: 10px;
    
