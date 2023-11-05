@@ -8,7 +8,8 @@ import WatchList from './Components/Watchlist/WatchList';
 import Dashboard from './Components/Dashboard/DashBoard'
 import LearnFirst from './Components/LearnFirst/LearnFirst';
 import Footer from './Components/Footer/Footer';
-
+import { RedirectFunction } from 'react-router-dom';
+import Profile from './Components/Profile/Profile';
 function App() {
   return (
     <>
@@ -21,7 +22,9 @@ function App() {
           <Route exact path='/watchlist' element={<WatchList/>}></Route>
           <Route exact path='/dashboard' element={<Dashboard/>}></Route>
           <Route exact path='/Login' element={<Login/>}></Route>
+          
           <Route exact path='/SignUp' element={<SignUp/>}></Route>
+          <Route exact path='/Profile' element={<Profile/>}></Route>
       </Routes>
     
     </BrowserRouter>

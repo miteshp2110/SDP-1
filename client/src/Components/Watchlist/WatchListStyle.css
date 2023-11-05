@@ -1,5 +1,5 @@
 .WatchList_container{
-    background-color: aqua;
+    
     margin-top: 15px;
     width: 98.7%;
     padding: 10px;
@@ -22,7 +22,7 @@
 .WatchList_preview{
 
     grid-area: item2;
-    background-color: brown;
+    
     width: 96%;
     height: 100%;
     margin-left: 2%;
