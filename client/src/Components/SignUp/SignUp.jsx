@@ -30,8 +30,8 @@ const SignUp=()=>{
         
       }
     };
-  return(loginStatus?<div>logged in</div>:
-    <>
+  return(
+    <div className="align-middle">
       <div className="content">
          <div className="text">
             SignUp
@@ -61,7 +61,7 @@ const SignUp=()=>{
             </div>
          </form>
       </div>
-    </>
+    </div>
   )
 }
 

@@ -43,10 +43,14 @@
     width: 120%;
     height: 100%;
     border-radius: 10px;
-    margin-left: -20%;
-    
+    margin-left: -15%;
+    font-size: 30px;
+    text-align: left;
 
     
+}
+.Journey_card span{
+    top: 30px;
 }
  .Card{
     

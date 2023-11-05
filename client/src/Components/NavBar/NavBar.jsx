@@ -3,6 +3,7 @@ import './NavBarStyle.css'
 
 
 const NavBar=()=>{
+
   return(
     <>
     <header>
@@ -29,9 +30,10 @@ const NavBar=()=>{
                 <Link  to="/dashboard">
                 <button className="dashboard_button">Dashborad</button>
                 </Link>
+                {localStorage.getItem('isloggedIn')==='true'?<Link to='/Profile'><button className="login_button">Profile</button></Link>:
                 <Link  to="/login">
                 <button className="login_button">Login</button>
-                </Link>
+                </Link>}
 
                 
         </nav>
