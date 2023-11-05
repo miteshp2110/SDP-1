@@ -17,7 +17,7 @@ const Dashboard=()=>{
                         Avl. balance:&nbsp;
                     </span>
                     <span id="avl-balance">
-                        1234.55
+                        12567.40
                     </span>
                     <br />
                     <button className="btn" id="add-btn">+ Add</button>
@@ -33,6 +33,22 @@ const Dashboard=()=>{
                         <td>LTP</td>
                         <td>Change</td>
                     </tr>
+                    <tr>
+                        <td>IOLCP</td>
+                        <td>NRML</td>
+                        <td>18</td>
+                        <td>356.7</td>
+                        <td>351.33</td>
+                        <td style={{color: 'green', fontWeight: 'bold'}}>+1.76 %</td>
+                    </tr>
+                    <tr>
+                        <td>CONCORDBIO</td>
+                        <td>NRML</td>
+                        <td>10</td>
+                        <td>904.67</td>
+                        <td>932.43</td>
+                        <td style={{color: 'red', fontWeight: 'bold'}}>-3.40 %</td>
+                    </tr>
                 </table>
                 <table className="tables" id="holdings" border={1} cellSpacing={0} cellPadding={1}>
                     <caption style={{textAlign: "left", fontSize: 25}}>Holdings</caption>
@@ -44,18 +60,18 @@ const Dashboard=()=>{
                         <td>Change</td>
                     </tr>
                     <tr>
-                        <td>Instrument 1</td>
-                        <td>Qty</td>
-                        <td>Avg. price</td>
-                        <td>Last Trade Price</td>
-                        <td>%chng</td>
+                        <td>SBIN</td>
+                        <td>18</td>
+                        <td>567.7</td>
+                        <td>580</td>
+                        <td style={{color: 'green', fontWeight: 'bold'}}>+2.16 %</td>
                     </tr>
                     <tr>
-                        <td>Instrument 2</td>
-                        <td>Qty</td>
-                        <td>Avg. price</td>
-                        <td>Last Trade Price</td>
-                        <td>%chng</td>
+                        <td>CHAMBLFERT</td>
+                        <td>58</td>
+                        <td>264.9</td>
+                        <td>289.78</td>
+                        <td style={{color: 'green', fontWeight: 'bold'}}>+9.40 %</td>
                     </tr>
                 </table>
             </div>
